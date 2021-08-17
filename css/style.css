@@ -1,0 +1,190 @@
+/* General Style */
+ul {
+    padding-left: 0;
+}
+
+#map{
+    width: 100%;
+    margin-top: 127px;
+    height: 873px;
+}
+
+/* Container Page */
+.container-page{
+    display: flex;
+}
+
+/* Container Main Navigation */
+.container-side-nav{
+    display: flex;
+    position: fixed;
+}
+
+.side-navigation{
+    width: 150px;
+    height: 1000px;
+    background-color: #313541;
+    text-align: center;
+}
+
+.side-navigation > ul > li {
+    list-style: none;
+    padding: 24px 0 ;
+}
+
+.detail-side-navigation{
+    width: 349px;
+    height:1000px;
+    background-color: #282c37;
+    box-shadow: 8px -7px 6px -4px #282c3767 ;
+}
+
+.detail-side-navigation{
+    padding:0px 25px;
+    font-size: 11pt;
+}
+
+.item-nav a{
+    color:#8298a0;
+}
+
+.first{
+    background-color: #72cdd2;
+}
+
+/* Sub Menu Main Menu */
+.filter-container{
+    padding:39px 0px;
+    border-bottom: 1px solid #282832;
+}
+
+.option-filter{
+    width: 100%;
+    padding: 10px;
+    border-radius: 0px;
+    background-color: #282c37;
+    color: #647d80;
+    border: #313541 1px solid;
+    padding: 13px 35px;
+
+    /* Start */
+    /* Refrence structure code from http://jsfiddle.net/qhCsJ/4120/ and https://codepen.io/vkjgr/pen/VYMeXp : Custom background, RGBA Color and Background Position */
+    margin: 0;      
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: url("../img/down-arrow.svg") no-repeat right rgba(221, 221, 221, 0);
+    background-position-x: 270px;
+    /* End */
+}
+
+.item-menu-container{
+    margin-top: 11px;
+    padding-bottom: 11px;
+    border-bottom: 1px solid #282832;
+
+}
+
+.item-menu{
+    margin:0;
+    width: 100%;
+    padding: 13px 35px;
+}
+
+.item-menu a{
+    color: white;
+    text-decoration: none;
+}
+
+.active{
+    background-color: #1c1f27;
+}
+
+.active a{
+    background-color: #1c1f27;
+    color: #92d72e;
+}
+
+.collapse{
+    padding: 10px 0px;
+}
+
+.collapse > ul{
+    padding-left: 20px;
+    margin-bottom: 0px;
+}
+
+.collapse > ul > li{
+    list-style: none;
+    padding: 10px 0px 0px 0px;
+}
+
+.collapse-menu::after{
+    float: right;
+    font-size: 12pt;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 700;
+    content: "\f0dd";
+}
+
+/* Content Container */
+.content{
+    width: 100%;
+    margin-left: 499px;
+}
+
+/* Header Container */
+header{
+    width: 100%;
+    height: 127px;
+    background-color: #f4f7fa;
+    padding: 51px 47px;
+    position: fixed;
+    z-index: 10000;
+}
+
+.item-header{
+    display: flex;
+}
+
+.other-menu-header{
+    text-align: right;
+}
+
+.other-menu-header ul li{
+    display: inline-block;
+    font-size: 17pt;
+    margin: 0px 11px ;
+    color: #647d80;
+}
+
+/* Detail Content */
+.side-content{
+    margin-top: 127px;
+}
+
+.side-content-container{
+    width: 349px !important;
+    background-color: #313541d8 !important;
+}
+
+.side-content-container h3{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 10px 35px;
+    font-weight: 600;
+    color: white;
+    background-color: #72cdd2;
+}
+
+.side-content-container p{
+    padding: 10px 35px;
+    color: white;
+    /* overflow-x: hidden;
+    overflow-y: scroll; */
+}
+
+
+
